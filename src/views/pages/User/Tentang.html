@@ -294,72 +294,121 @@
 </head>
 <body class="bg-white">
 
-<header class="sticky top-0 z-30">
-    <div id="topbar" class="hidden md:block bg-custom-teal-dark text-gray-300 text-sm">
-        <div class="container mx-auto flex justify-between items-center px-14 py-2">
-            <div class="flex items-center space-x-6">
-                <a href="tel:+60104409648" class="flex items-center space-x-2 hover:text-white transition-colors">
-                    <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
-                    <span>+60 10-440 9648</span>
-                </a>
-                <a href="mailto:admin@infaqniaga.com" class="flex items-center space-x-2 hover:text-white transition-colors">
-                     <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
-                    <span>admin@infaqniaga.com</span>
-                </a>
+ <header class="sticky top-0 z-30">
+        <div id="topbar" class="hidden md:block bg-custom-teal-dark text-gray-300 text-sm">
+            <div class="container mx-auto flex justify-between items-center px-14 py-2">
+                <div class="flex items-center space-x-6">
+                    <a href="tel:+60104409648" class="flex items-center space-x-2 hover:text-white transition-colors">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+                        <span>+60 10-440 9648</span>
+                    </a>
+                    <a href="mailto:admin@infaqniaga.com" class="flex items-center space-x-2 hover:text-white transition-colors">
+                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                        <span>admin@infaqniaga.com</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" ><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg>
+                    </a>
+                </div>
             </div>
-            <div class="flex items-center space-x-4">
-                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="hover:text-white transition-colors"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg></a>
-                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="hover:text-white transition-colors"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" ><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg></a>
+        </div>
+        <nav class="bg-white shadow-lg">
+            <div class="container mx-auto md:px-12 px-6 py-4 flex justify-between items-center">
+                 <img src="../../../../assets/images/logo.png" alt="Logo" class="h-10 w-auto">
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="./home.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200">Utama</a>
+                    <a href="./Tentang.html" class="font-medium text-custom-teal hover:text-custom-blue transition-colors duration-200">Tentang</a>
+                    <div class="relative inline-flex" id="sukarela-dropdown-container">
+                        <a href="./sukarela.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200 bg-white pl-4 pr-2 py-2 rounded-l-lg">
+                            Sukarela
+                        </a>
+
+                        <button id="sukarela-dropdown-btn" class="inline-flex items-center px-2 py-2 bg-white rounded-r-lg hover:text-custom-blue">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        
+                        <div id="sukarela-dropdown-panel" class="hidden absolute right-0 mt-10 w-48 bg-white rounded-lg shadow-xl z-20 border border-gray-200">
+                            <a href="./jadisukarela.html" class="block px-4 py-2 text-sm text-custom-teal-dark hover:bg-custom-blue-light hover:rounded-lg hover:text-custom-teal">Jadi Sukarela</a>
+                        </div>
+                    </div>
+                    <a href="./hubungi.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200">Hubungi</a>
+                </div>
+                <div class="hidden md:flex items-center justify-end space-x-4">
+                    <div class="flex items-center">
+                        <input id="search-input-desktop" type="text" placeholder="Ketik untuk cari..." class="w-0 opacity-0 transition-all duration-300 ease-in-out border-b-2 border-custom-teal-dark focus:outline-none focus:w-48 focus:opacity-100 py-1">
+                        <button id="search-btn-desktop" aria-label="Cari" class="text-custom-teal-dark hover:text-custom-blue transition-colors duration-200 ml-2">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </button>
+                    </div>
+                    <a href="../../../../login.html" class="inline-flex items-center px-6 py-2 border-2 border-custom-teal text-custom-teal-dark font-semibold rounded-full hover:bg-custom-teal hover:text-white transition-all duration-300 transform hover:scale-105">Log In</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="open-menu-btn" aria-label="Buka menu">
+                        <svg class="w-7 h-7 text-custom-teal-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="menu-overlay" class="hidden fixed inset-0 bg-black bg-opacity-60 z-40"></div>
+
+    <div id="mobile-menu-panel" class="fixed top-0 left-0 h-full w-4/5 max-w-sm bg-custom-blue-light p-6 z-50 transform -translate-x-full transition-transform duration-300 ease-in-out">
+        <div class="flex flex-col h-full">
+            <div class="flex justify-between items-center pb-4 border-b border-custom-blue">
+                <img src="../../../../assets/images/logo.png" alt="Logo" class="h-10 w-auto">
+                <button id="close-menu-btn" aria-label="Tutup menu">
+                    <svg class="w-7 h-7 text-custom-teal-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+            </div>
+
+            <div class="relative mt-6">
+                <input type="text" placeholder="Cari..." class="w-full bg-white border border-custom-blue text-custom-teal-dark rounded-full py-2 pl-4 pr-10 focus:ring-custom-teal focus:border-custom-teal">
+                <svg class="w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            
+            <nav class="flex-grow mt-6 space-y-2">
+                <a href="./home.html" class="block py-3 text-lg text-custom-teal-dark hover:text-custom-teal">Utama</a>
+                <a href="./Tentang.html" class="block py-3 text-lg text-custom-teal ">Tentang</a>
+                <div>
+                    <div class="flex justify-between items-center w-full text-lg">
+                        <a href="./sukarela.html" class="py-3 text-custom-teal-dark hover:text-custom-teal">
+                            <span>Sukarela</span>
+                        </a>
+                        <button id="sukarela-accordion-btn" class="p-3">
+                            <svg id="sukarela-accordion-icon" class="w-5 h-5 transition-transform duration-300 hover:text-custom-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                    </div>
+                    <div id="sukarela-accordion-panel" class="hidden pl-4 mt-2 space-y-2">
+                        <a href="./jadisukarela.html" class="block py-2 text-custom-teal-dark hover:text-custom-teal">Jadi Sukarela</a>
+                    </div>
+                </div>
+                <a href="./hubungi.html" class="block py-3 text-lg text-custom-teal-dark hover:text-custom-teal">Hubungi</a>
+            </nav>
+
+            <div class=" mb-4">
+                <a href="../../../../login.html" class="block w-full text-center bg-custom-teal text-white rounded-[50px] py-3 font-semibold hover:bg-custom-teal-dark  transition-all duration-300 transform hover:scale-105">Log In</a>
+            </div>
+            
+            
+            <div class="mt-auto pt-6 border-t border-custom-blue">
+                <div class="flex items-center justify-center space-x-6 mb-4">
+                     <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="text-custom-teal-dark hover:text-custom-teal transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="text-custom-teal-dark hover:text-custom-teal transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" ><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg>
+                    </a>
+                </div>
+                 <a href="mailto:admin@infaqniaga.com" class="block text-center text-sm text-custom-teal-dark hover:text-custom-teal">admin@infaqniaga.com</a>
+                 <a href="tel:+60104409648" class="block text-center text-sm text-custom-teal-dark hover:text-custom-teal mt-1">+60 10-440 9648</a>
             </div>
         </div>
     </div>
-    <nav class="bg-white shadow-lg">
-        <div class="container mx-auto md:px-12 px-6 py-4 flex justify-between items-center">
-             <img src="../../../../assets/images/logo.png" alt="Logo" class="h-10 w-auto">
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="home.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200">Utama</a>
-                <a href="tentang.html" class="font-semibold text-custom-teal hover:text-custom-blue transition-colors duration-200">Tentang</a>
-                
-                    <div class="relative" id="sukarela-dropdown-container">
-                        <div class="flex items-center">
-
-                            <a href="sukarela.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200">
-                                Sukarela
-                            </a>
-
-                            <button id="sukarela-dropdown-btn" aria-label="Buka menu sukarela" class="p-1 ml-1 rounded-full hover:bg-gray-100 transition-colors">
-                                <svg class="w-4 h-4 text-custom-teal-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                                </svg>
-                            </button>
-                        </div>
-
-                        <div id="sukarela-dropdown-panel" class="hidden absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-xl z-20 border border-gray-100 py-2">
-                            <a href="jadisukarela.html" class="block px-4 py-2 font-medium text-custom-teal-dark hover:text-custom-blue hover:bg-gray-50 transition-colors duration-200 rounded">
-                                Jadi Sukarela
-                            </a>
-                        </div>
-                    </div>
-
-                <a href="hubungi.html" class="font-medium text-custom-teal-dark hover:text-custom-blue transition-colors duration-200">Hubungi</a>
-            </div>
-            <div class="hidden md:flex items-center justify-end space-x-4">
-                <div class="flex items-center">
-                    <input id="search-input-desktop" type="text" placeholder="Ketik untuk cari..." class="w-0 opacity-0 transition-all duration-300 ease-in-out border-b-2 border-custom-teal-dark focus:outline-none focus:w-48 focus:opacity-100 py-1">
-                    <button id="search-btn-desktop" aria-label="Cari" class="text-custom-teal-dark hover:text-custom-blue transition-colors duration-200 ml-2">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                    </button>
-                </div>
-                <a href="#" class="inline-flex items-center px-6 py-2 border-2 border-custom-teal text-custom-teal-dark font-semibold rounded-full hover:bg-custom-teal hover:text-white transition-all duration-300 transform hover:scale-105">Log In</a>
-            </div>
-            <div class="md:hidden">
-                <button id="open-menu-btn" aria-label="Buka menu">
-                    <svg class="w-7 h-7 text-custom-teal-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
-                </button>
-            </div>
-        </div>
-    </nav>
-</header>
 
 <style>
     /* Styling untuk panel dropdown */
@@ -431,56 +480,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-    <div id="menu-overlay" class="hidden fixed inset-0 bg-black bg-opacity-60 z-40"></div>
-
-    <div id="mobile-menu-panel" class="fixed top-0 left-0 h-full w-4/5 max-w-sm bg-custom-blue-light p-6 z-50 transform -translate-x-full transition-transform duration-300 ease-in-out">
-        <div class="flex flex-col h-full">
-            <div class="flex justify-between items-center pb-4 border-b border-custom-blue">
-                <img src="../../../../assets/images/logo.png" alt="Logo" class="h-10 w-auto">
-                <button id="close-menu-btn" aria-label="Tutup menu">
-                    <svg class="w-7 h-7 text-custom-teal-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
-                </button>
-            </div>
-
-            <div class="relative mt-6">
-                <input type="text" placeholder="Cari..." class="w-full bg-white border border-custom-blue text-custom-teal-dark rounded-full py-2 pl-4 pr-10 focus:ring-custom-teal focus:border-custom-teal">
-                <svg class="w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-            </div>
-            
-            <nav class="flex-grow mt-6 space-y-2">
-                <a href="#" class="block py-3 text-lg font-semibold text-custom-teal">Utama</a>
-                <a href="#" class="block py-3 text-lg text-custom-teal-dark hover:text-custom-teal">Tentang</a>
-                <div>
-                    <button id="sukarela-accordion-btn" class="w-full flex justify-between items-center py-3 text-lg text-custom-teal-dark hover:text-custom-teal">
-                        <span>Sukarela</span>
-                        <svg id="sukarela-accordion-icon" class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div id="sukarela-accordion-panel" class="hidden pl-4 mt-2 space-y-2">
-                        <a href="#" class="block py-2 text-custom-teal-dark hover:text-custom-teal">Jadi Sukarela</a>
-                    </div>
-                </div>
-                <a href="#" class="block py-3 text-lg text-custom-teal-dark hover:text-custom-teal">Hubungi</a>
-            </nav>
-
-            <div class=" mb-4">
-                <a href="#" class="block w-full text-center bg-custom-teal text-white rounded-[50px] py-3 font-semibold hover:bg-custom-teal-dark  transition-all duration-300 transform hover:scale-105">Log In</a>
-            </div>
-            
-            
-            <div class="mt-auto pt-6 border-t border-custom-blue">
-                <div class="flex items-center justify-center space-x-6 mb-4">
-                     <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="text-custom-teal-dark hover:text-custom-teal transition-colors">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="text-custom-teal-dark hover:text-custom-teal transition-colors">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" ><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266.058 1.644.07 4.85.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg>
-                    </a>
-                </div>
-                 <a href="mailto:admin@infaqniaga.com" class="block text-center text-sm text-custom-teal-dark hover:text-custom-teal">admin@infaqniaga.com</a>
-                 <a href="tel:+60104409648" class="block text-center text-sm text-custom-teal-dark hover:text-custom-teal mt-1">+60 10-440 9648</a>
-            </div>
-        </div>
-    </div>
 
     <main>
         <section class="relative bg-slate-50 py-24 md:py-32 overflow-hidden">
@@ -501,7 +500,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </section>
 
         <section class="py-24 bg-white">
-    <div class="container mx-auto md:px-14 px-8">
+    <div class="container mx-auto md:px-28 px-8">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             
             <div id="gambar-animasi-progresif" class="relative group order-last lg:order-first">
@@ -605,8 +604,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         
 
-        <section class="py-24 bg-white">
-    <div class="container mx-auto md:px-14 px-8">
+    <section class="py-24 bg-white">
+    <div class="container mx-auto md:px-28 px-8">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             
             <div class="w-full">
@@ -715,7 +714,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <section class="py-24 bg-slate-50">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-8 md:px-28">
         <div class="text-center mb-12 md:mb-16">
             <p class="text-sm font-semibold text-custom-teal uppercase tracking-widest">APA YANG KAMI LAKUKAN</p>
             <h2 class="font-playfair text-4xl md:text-5xl text-custom-teal-dark font-bold mt-3">Cipta Masa Depan yang Lebih Baik</h2>
@@ -826,7 +825,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
 
 <section class="pattern-bg py-24">
-    <div class="container mx-auto md:px-14 px-8">
+    <div class="container mx-auto md:px-28 px-8">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             
             <div id="faq-image-animate" class="w-full">
@@ -967,7 +966,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </main>
 
     <footer class="bg-custom-teal-dark text-gray-400 ">
-            <div class="container mx-auto px-4 py-16">
+            <div class="container mx-auto md:px-14 px-8 py-16">
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                     <div>
                         <h3 class="font-serif text-xl text-white font-semibold mb-4">Customer Care</h3>
@@ -1006,28 +1005,30 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div>
                         <h3 class="font-serif text-xl text-white font-semibold mb-4">Gallery Photos</h3>
                         <div class="grid grid-cols-3 gap-2">
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid8-150x150.jpg" alt="Gallery photo 1" class="w-full h-full object-cover aspect-square transition-transform"></a>
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid7-150x150.jpg" alt="Gallery photo 2" class="w-full h-full object-cover aspect-square transition-transform"></a>
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid6-150x150.jpg" alt="Gallery photo 3" class="w-full h-full object-cover aspect-square transition-transform"></a>
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid5-150x150.jpg" alt="Gallery photo 4" class="w-full h-full object-cover aspect-square transition-transform"></a>
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid3-150x150.jpg" alt="Gallery photo 5" class="w-full h-full object-cover aspect-square transition-transform"></a>
-                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid2-150x150.jpg" alt="Gallery photo 6" class="w-full h-full object-cover aspect-square transition-transform"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid8-150x150.jpg" alt="Gallery photo 1" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid7-150x150.jpg" alt="Gallery photo 2" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid6-150x150.jpg" alt="Gallery photo 3" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid5-150x150.jpg" alt="Gallery photo 4" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid3-150x150.jpg" alt="Gallery photo 5" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
+                            <a href="#" class="block overflow-hidden rounded-md group"><img src="https://infaqniaga.com/wp-content/uploads/2020/03/gallery-grid2-150x150.jpg" alt="Gallery photo 6" class="w-full h-full object-cover aspect-square transition-transform hover:scale-110"></a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="border-t border-gray-700">
-                <div class="container mx-auto px-4 py-4">
+                <div class="container mx-auto md:px-14 px-8 py-4">
                     <div class="flex flex-col sm:flex-row justify-between items-center text-sm">
                         <p class="text-gray-500 text-center sm:text-left mb-2 sm:mb-0">
                             Copyright &copy; <span id="copyright-year"></span> InfaqNiaga. All Rights Reserved.
                         </p>
+                        <!-- <a href="#top" id="footerScrollTop" class="w-10 h-10 bg-gray-600 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" /></svg>
+                        </a> -->
                     </div>
                 </div>
             </div>
         </footer>
-
     
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
@@ -1075,7 +1076,10 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
     
     <script>
+        // --- Elemen Global ---
         const body = document.body;
+
+        // --- Logika untuk Menu Mobile ---
         const openMenuBtn = document.getElementById('open-menu-btn');
         const closeMenuBtn = document.getElementById('close-menu-btn');
         const mobileMenuPanel = document.getElementById('mobile-menu-panel');
@@ -1099,6 +1103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(closeMenuBtn) closeMenuBtn.addEventListener('click', closeMenu);
         if(menuOverlay) menuOverlay.addEventListener('click', closeMenu);
 
+        // --- Logika untuk Search Melebar (Desktop) ---
         const searchBtnDesktop = document.getElementById('search-btn-desktop');
         const searchInputDesktop = document.getElementById('search-input-desktop');
 
@@ -1117,6 +1122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // --- Logika Lainnya (Dropdown & Accordion) ---
         const dropdownBtn = document.getElementById('sukarela-dropdown-btn');
         const dropdownPanel = document.getElementById('sukarela-dropdown-panel');
         const dropdownContainer = document.getElementById('sukarela-dropdown-container');
